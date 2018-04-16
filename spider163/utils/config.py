@@ -10,13 +10,17 @@ else:
     import ConfigParser
 
 
+PATH = os.getcwd()
+try:
+    PATH = os.environ.get("HOME") + "/spider163"
+    if os.environ.get("SPIDER163_PATH") is not None:
+        PATH = os.environ.get("SPIDER163_PATH")
 
-PATH = os.environ.get("HOME") + "/spider163"
-if os.environ.get("SPIDER163_PATH") is not None:
-    PATH = os.environ.get("SPIDER163_PATH")
+    if not os.path.exists(PATH):
+        os.makedirs(PATH)
+except:
+    pass
 
-if not os.path.exists(PATH):
-    os.makedirs(PATH)
 cf = ConfigParser.ConfigParser()
 if not os.path.exists(PATH + "/spider163.conf"):
     print("请在默认路径 " + PATH + " 下增加配置文件 spider163.conf 格式参照官方")

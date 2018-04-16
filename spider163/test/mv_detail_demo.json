@@ -1,0 +1,74 @@
+{
+  "loadingPic": "",
+  "bufferPic": "",
+  "loadingPicFS": "",
+  "bufferPicFS": "",
+  "subed": false,
+  "mp": {
+    "id": 5324139,
+    "fee": 0,
+    "mvFee": 0,
+    "payed": 0,
+    "pl": 720,
+    "dl": 720,
+    "cp": 1,
+    "sid": 0,
+    "st": 0,
+    "normal": true,
+    "unauthorized": false
+  },
+  "data": {
+    "id": 5324139,
+    "name": "Wild 舞蹈练习室",
+    "artistId": 127337,
+    "artistName": "Nine Muses",
+    "briefDesc": "",
+    "desc": null,
+    "cover": "http://p4.music.126.net/R4lYNxRHVYhPlSHjGcmA7w==/1400777822569131.jpg",
+    "coverId_str": "1400777822569131",
+    "coverId": 1400777822569131,
+    "playCount": 16216,
+    "subCount": 467,
+    "shareCount": 18,
+    "commentCount": 58,
+    "duration": 190000,
+    "nType": 0,
+    "publishTime": "2013-05-14",
+    "price": null,
+    "brs": [
+      {
+        "size": 1.9885536E7,
+        "br": 480,
+        "point": 2
+      },
+      {
+        "size": 1.2461553E7,
+        "br": 240,
+        "point": 0
+      },
+      {
+        "size": 3.5773012E7,
+        "br": 720,
+        "point": 5
+      }
+    ],
+    "artists": [
+      {
+        "id": 127337,
+        "name": "Nine Muses"
+      }
+    ],
+    "commentThreadId": "R_MV_5_5324139",
+    "videoGroup": [
+      {
+        "id": 5100,
+        "name": "音乐"
+      },
+      {
+        "id": 1000,
+        "name": "MV"
+      }
+    ]
+  },
+  "code": 200
+}

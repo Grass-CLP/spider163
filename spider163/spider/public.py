@@ -21,6 +21,13 @@ play_url = "http://music.163.com/discover/playlist/?order=hot&cat={}&limit=35&of
 music_url = "http://music.163.com/api/playlist/detail?id="
 mp3_url = "http://music.163.com/weapi/song/enhance/player/url?csrf_token="
 
+mv_page_url = "http://music.163.com/#/mv?id="
+mv_detail_url = "http://music.163.com/weapi/v1/mv/detail?csrf_token="
+mv_url = "http://music.163.com/weapi/song/enhance/play/mv/url?csrf_token="
+
+video_page_url = "http://music.163.com/video?id="
+video_url = "http://music.163.com/weapi/cloudvideo/playurl?csrf_token="
+
 playlist_api = "http://music.163.com/api/playlist/detail?id={}&upd"
 
 music_api = "http://music.163.com/api/song/detail/?id={}&ids=[{}]"
